@@ -5,16 +5,12 @@
     <img src="logo.png" width="300">
 </p>
 
-
-## LMHaze
-[CVPR 2026] Official implementation of our paper "From Spots to Pixels: Dense Spatial Gene Expression Prediction from Histology Images".
-
 ### [[Paper]()][[arxiv](https://arxiv.org/abs/2503.01347)]
 [Ruikun Zhang](https://scholar.google.com/citations?user=8rabqgoAAAAJ&hl=en), [Yan Yang](https://scholar.google.com/citations?user=IF0xw34AAAAJ&hl=en), and [Liyuan Pan](https://scholar.google.com/citations?user=kAt6-AIAAAAJ&hl=en)\*
 
 > **Abstract:**  Spatial transcriptomics (ST) measures gene expression at fine-grained spatial resolution, offering insights into tissue molecular landscapes. Previous methods for spatial gene expression prediction typically crop spots of interest from histopathology slide images, and train models to map each spot to a corresponding gene expression profile. However, these methods inherently lose the spatial resolution in gene expression: 1) each spot often contains multiple cells with distinct gene expression profiles; 2) spots are typically defined at fixed spatial resolutions, limiting the ability to predict gene expression at varying scales. To address these limitations, this paper presents PixNet, a dense prediction network capable of predicting spatially resolved gene expression across spots of varying sizes and scales directly from histopathology slide images. Different from previous methods that map individual spots to gene expression values, we generate a spatially dense continuous gene expression map from the histopathology slide image, and aggregate values within spots of interest to predict the gene expression. Our PixNet outperforms state-of-the-art methods on four common ST datasets in multiple spatial scales.
 
-![My Image](img/framework.png)
+![My Image](pipeline.png)
 
 
 ## 📑 Contents
